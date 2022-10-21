@@ -57,7 +57,7 @@ kubectl port-forward --namespace <YOUR-NAMESPACE> service/loki-grafana 3000:80
 ```
 
 Navigate to <http://localhost:3000> and login with `admin` and the password output above.
-Then follow the [instructions for adding the loki datasource](https://grafana.com/docs/grafana/latest/datasources/loki/), using the URL `http://loki:3100/`.
+Then follow the [instructions for adding the loki datasource](https://grafana.com/docs/grafana/latest/datasources/loki/), using the URL `http://loki-stack:3100/`.
 
 ## Upgrade
 ### Version >= 2.8.0
